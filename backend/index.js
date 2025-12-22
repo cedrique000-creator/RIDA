@@ -25,7 +25,8 @@ app.use(cors({
     ? [
         'https://rida-production-d2a6.up.railway.app', 
         'https://www.ridaapp.com',
-        'https://ridaapp.com'
+        'https://ridaapp.com',
+        'https://rida-1.onrender.com'
       ]
     : [process.env.FRONTEND_URL || 'http://localhost:3000'],
   credentials: true
