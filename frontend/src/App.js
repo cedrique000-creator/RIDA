@@ -1866,7 +1866,7 @@ const HomePage = ({ setCurrentPage, theme }) => {
                     We're the service that gives you a driver for your own car or your journey.
                   </p>
                   <p className="card-text">
-                    Need a safe driver after drinks, someone to take you out of town, a family driver, a driver for events and other occasions, or even a driver who doubles as a guide while visiting Rwanda?
+                    Need a safe driver after drinks, someone to take you out of town, a family driver, a driver for events and other occasions, or even a driver who doubles as a guide while visiting Uganda?
                   </p>
                   <p className="card-text">
                     That's exactly what we do.
@@ -2000,7 +2000,7 @@ const HomePage = ({ setCurrentPage, theme }) => {
                     <i className="bi bi-camera-fill fs-1"></i>
                   </motion.div>
                   <h4 className="card-title">Tourism</h4>
-                  <p className="card-text">Discover Rwanda with a trusted driver who's also your local guide - fluent in the roads, communities, attractions, and experiences.</p>
+                  <p className="card-text">Discover Uganda with a trusted driver who's also your local guide - fluent in the roads, communities, attractions, and experiences.</p>
                 </motion.div>
               </AnimatedCard>
             </div>
@@ -3034,7 +3034,7 @@ const CustomerDashboard = ({ user, token, showMessage, setCurrentPage, theme }) 
                 >
                   <option value="">Any Language</option>
                   <option value="english">English</option>
-                  <option value="kinyarwanda">Kinyarwanda</option>
+                   <option value="swahili">Swahili</option>
                   <option value="french">French</option>
                 </select>
               </div>
@@ -3296,7 +3296,7 @@ const CustomerDashboard = ({ user, token, showMessage, setCurrentPage, theme }) 
                       style={{ backgroundColor: colors.background, color: colors.text, border: `1px solid ${colors.border}` }}
                     >
                       <option value="english">English</option>
-                      <option value="kinyarwanda">Kinyarwanda</option>
+                      <option value="Swahili">Swahili</option>
                       <option value="french">French</option>
                     </select>
                   </div>
@@ -4096,7 +4096,7 @@ const Register = ({ onRegisterSuccess, showMessage, theme }) => {
     preferredServiceAreas: ['kigali'],
     timeAvailability: 'flexible',
     openToServices: ['shortTrips'],
-    languagesSpoken: ['english', 'kinyarwanda']
+    languagesSpoken: ['english', 'Swahili']
   });
   const [loading, setLoading] = useState(false);
   
@@ -4513,7 +4513,7 @@ const Register = ({ onRegisterSuccess, showMessage, theme }) => {
             <div className="form-group mt-3">
               <label className="form-label fw-semibold">Languages Spoken</label>
               <div className="row g-2">
-                {['english', 'kinyarwanda', 'french'].map(lang => (
+                {['english', 'swahili', 'french'].map(lang => (
                   <div key={lang} className="col-md-4">
                     <div className="form-check">
                       <input
